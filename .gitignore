@@ -1,0 +1,132 @@
+# =============================================================================
+# Node.js / npm
+# =============================================================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# Yarn Integrity file
+.yarn-integrity
+
+# =============================================================================
+# Build Output
+# =============================================================================
+
+# TypeScript build output
+dist/
+build/
+*.js.map
+
+# =============================================================================
+# Environment Variables
+# =============================================================================
+
+# Environment files (contain secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# Keep example files
+!.env.example
+!env.production.example
+
+# =============================================================================
+# IDE & Editor
+# =============================================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains (WebStorm, IntelliJ)
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# =============================================================================
+# OS Files
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =============================================================================
+# Logs
+# =============================================================================
+
+logs/
+*.log
+npm-debug.log*
+
+# =============================================================================
+# Testing
+# =============================================================================
+
+coverage/
+.nyc_output/
+
+# =============================================================================
+# Temporary Files
+# =============================================================================
+
+tmp/
+temp/
+*.tmp
+*.temp
+
+# =============================================================================
+# Secrets & Keys (NEVER commit these)
+# =============================================================================
+
+*.pem
+*.key
+*.cert
+*.p12
+secrets/
+credentials/
+
+# Firebase/Google Cloud
+*-firebase-adminsdk-*.json
+firebase-service-account.json
+google-credentials.json
+
+# =============================================================================
+# Miscellaneous
+# =============================================================================
+
+# Package lock (keep package-lock.json for reproducible builds)
+# Uncomment if you want to ignore it:
+# package-lock.json
+
+# Uploads folder (if storing files locally)
+uploads/
+
+# MongoDB data (if running locally)
+data/
+
+# Redis dump
+dump.rdb
